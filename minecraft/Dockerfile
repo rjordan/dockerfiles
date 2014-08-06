@@ -1,4 +1,3 @@
-#FROM phusion/baseimage
 FROM ubuntu
 MAINTAINER Richard Jordan <richard.jordan@pobox.com>
 
