@@ -16,6 +16,7 @@ RUN apt-get update;\
     gem update --system; gem install bundler
 RUN rm /etc/nginx/sites-enabled/*
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+ADD nginx.config /etc/nginx/sites-enabled/default
 ENV RAILS_ENV production
 EXPOSE 80
 
