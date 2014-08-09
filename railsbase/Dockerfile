@@ -17,7 +17,9 @@ RUN apt-get update;\
 RUN rm /etc/nginx/sites-enabled/*
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 ADD nginx.config /etc/nginx/sites-enabled/default
+ADD supervisord.conf /etc/supervisor/supervisord.conf
 ENV RAILS_ENV production
 EXPOSE 80
 
+CMD ["/usr/bin/supervisord"]
 
