@@ -1,4 +1,4 @@
-FROM ubuntu:saucy
+FROM ubuntu:latest
 MAINTAINER Richard Kent Jordan <rjordan@pobox.com>
 
 RUN apt-get update;\
