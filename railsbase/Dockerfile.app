@@ -1,4 +1,4 @@
-FROM railsbase
+FROM railsbase:latest
 
 ADD . /app
 WORKDIR /app
