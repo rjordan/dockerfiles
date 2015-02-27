@@ -382,4 +382,4 @@ http.port: 9200
 # http server. With this enabled, it may pose a security risk, so disabling
 # it unless you need it is recommended (it is disabled by default).
 #
-#http.jsonp.enable: true
+http.jsonp.enable: false

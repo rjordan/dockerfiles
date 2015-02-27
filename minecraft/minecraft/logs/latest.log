@@ -1,0 +1,30 @@
+[03:41:57] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[03:41:57] [Server thread/INFO]: Loading properties
+[03:41:57] [Server thread/INFO]: Default game type: SURVIVAL
+[03:41:57] [Server thread/INFO]: Generating keypair
+[03:41:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:41:57] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
+[03:41:57] [Server thread/INFO]: Console input is disabled due to --noconsole command argument
+[03:41:57] [Server thread/INFO]: Preparing level "world"
+[03:41:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2887444442922497514)
+[03:41:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2887444442922497514)
+[03:41:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2887444442922497514)
+[03:41:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:41:59] [Server thread/INFO]: Done (1.964s)! For help, type "help" or "?"
+[03:42:43] [User Authenticator #1/INFO]: UUID of player Wreckn_Ralph is e1d37b40-249d-4e10-b461-b9a94ab518a3
+[03:42:43] [Server thread/INFO]: Wreckn_Ralph[/172.17.42.1:36869] logged in with entity id 326 at ([world] -75.95450135431597, 64.0, 343.2682109117817)
+[03:42:48] [Server thread/INFO]: Wreckn_Ralph lost connection: Disconnected
+[03:42:48] [Server thread/INFO]: Wreckn_Ralph left the game.
+[03:43:44] [User Authenticator #2/INFO]: UUID of player Wreckn_Ralph is e1d37b40-249d-4e10-b461-b9a94ab518a3
+[03:43:44] [Server thread/INFO]: Wreckn_Ralph[/172.17.42.1:36890] logged in with entity id 518 at ([world] -75.95450135431597, 64.0, 343.2682109117817)
+[03:43:49] [Server thread/INFO]: Wreckn_Ralph issued server command: /stop
+[03:43:49] [Server thread/INFO]: Wreckn_Ralph: Stopping the server..
+[03:43:49] [Server thread/INFO]: Stopping server
+[03:43:49] [Server thread/INFO]: Saving players
+[03:43:49] [Server thread/INFO]: Wreckn_Ralph lost connection: Server closed
+[03:43:49] [Server thread/INFO]: Wreckn_Ralph left the game.
+[03:43:49] [Server thread/INFO]: Saving worlds
+[03:43:49] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[03:43:50] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[03:43:50] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[03:43:50] [Thread-4/INFO]: Stopping server

@@ -9,5 +9,5 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq \
     curl bison build-essential zlib1g-dev libssl-dev libreadline6-dev libxml2-dev git-core \
     gawk libyaml-dev libsqlite3-dev sqlite3 autoconf libgdbm-dev libncurses5-dev \
     automake libtool pkg-config libffi-dev 
-USER jenkins
 ENV HOME /var/jenkins_home
+USER jenkins

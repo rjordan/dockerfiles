@@ -9,7 +9,8 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq \
 ADD elasticsearch-1.4.0.tar.gz /
 WORKDIR /elasticsearch-1.4.0 
 ADD elasticsearch.yml elasticsearch-1.4.0/config/elasticsearch.yml
-RUN bin/plugin -DproxyHost= -DproxyPort= -v -i mobz/elasticsearch-head 
+#RUN bin/plugin -DproxyHost= -DproxyPort= -v -i mobz/elasticsearch-head 
+RUN bin/plugin -install mobz/elasticsearch-head
 VOLUME /esdata
 
 EXPOSE 9200
